@@ -1,3 +1,4 @@
+#!/bin/python3
 import sys, time, os
 
 Minutes = 60
