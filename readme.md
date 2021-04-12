@@ -8,9 +8,15 @@ For use that methode without a real clock, I decide to use a ~~simple~~ python s
 
 use time and unix notify-send to set when a task start and when a task end. 
 
+## Install
+Execute the simple install.sh
+
+```shell
+./install.sh
+```
 
 ## Setup
-iI pretty sure that anybody want to know how I manage that part to use it everywhere. 
+I'm pretty sure that anybody want to know how I manage that part to use it everywhere. 
 
 easy, just copy the Pomodoro.py and launch it with a special keybinding or double click or whatever you want, it'll start a 2 hours long session (2 work and 2 pause)and offer you a delicious coffee (or tea) after.
 ![coffee](src/coffee.png)
