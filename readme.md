@@ -18,7 +18,7 @@ Execute the simple install.sh
 ## Setup
 I'm pretty sure that anybody want to know how I manage that part to use it everywhere. 
 
-easy, just copy the Pomodoro.py and launch it with a special keybinding or double click or whatever you want, it'll start a 2 hours long session (2 work and 2 pause)and offer you a delicious coffee (or tea) after.
+easy, just copy the Pomodoro.py and launch it with a special keybinding or double click or whatever you want, it'll start a 2 hours long session (2 work and 1 pause)and offer you a delicious coffee (or tea) after.
 ![coffee](src/coffee.png)
 
 ## Notify screen
