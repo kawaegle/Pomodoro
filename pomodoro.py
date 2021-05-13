@@ -1,7 +1,7 @@
 #!/bin/python3
 import sys, time, os
 
-Minutes = 1
+Minutes = 60
 Work_session=25*Minutes
 Pause_session= 5*Minutes
 loop = 4 # 2 hour of pomodoro and need a big break
