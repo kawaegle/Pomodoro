@@ -21,6 +21,16 @@ I'm pretty sure that anybody want to know how I manage that part to use it every
 easy, just copy the Pomodoro.py and launch it with a special keybinding or double click or whatever you want, it'll start a 2 hours long session (2 work and 1 pause)and offer you a delicious coffee (or tea) after.
 ![coffee](src/coffee.png)
 
+once installed, you can use the Polybar_Pomodoro.sh like that in polybar config
+
+```shell
+[module/Pomodoro] ## The name of the Module
+	type=custom/script
+	interval = 2 ## Refresh time
+	exec = ~/.config/i3/polybar/script/polybar_pomodoro.sh ## where is set polybar_pomodoro.sh
+	click-left = exec ~/.config/i3/Script/script/toggle_pomodoro.sh ## where is set toggle_polybar.sh
+```
+
 ## Notify screen
 
 Start session of work
